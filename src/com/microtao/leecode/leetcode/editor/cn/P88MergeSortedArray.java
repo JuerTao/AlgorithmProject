@@ -58,9 +58,11 @@ public class P88MergeSortedArray {
                 return ;
             int i = m - 1;
             int j = n - 1;
+            //定位到nums1数组的末尾
             int current_max = nums1.length - 1;
             while (i >= 0 && j >= 0) {
                 if (nums1[i] > nums2[j]) {
+                    //比较结果大的被挪到了数组nums1的后面
                     nums1[current_max--] = nums1[i--];
                 } else {
                     nums1[current_max--] = nums2[j--];

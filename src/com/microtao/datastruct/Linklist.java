@@ -1,10 +1,12 @@
+package com.microtao.datastruct;
+
 /**
  * @Author Microtao
  * @Date 2020/11/20-17:16
  * <p>
- * Node 类用于描述节点的属性
+ * com.microtao.datastruct.Node 类用于描述节点的属性
  * <p>
- * LNode 类用于描述单链表的抽象：
+ * com.microtao.datastruct.LNode 类用于描述单链表的抽象：
  * node ：代表单链表中的节点
  * nextNode:保存的是下一个节点的地址
  */

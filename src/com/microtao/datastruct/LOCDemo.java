@@ -1,3 +1,5 @@
+package com.microtao.datastruct;
+
 import java.util.Optional;
 
 /**
@@ -18,7 +20,7 @@ class DataType {
 
     @Override
     public String toString() {
-        return "DataType{" +
+        return "com.microtao.datastruct.DataType{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
